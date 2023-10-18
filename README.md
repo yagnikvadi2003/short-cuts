@@ -3,5 +3,8 @@
 ## custom port
     yarn start --port 2003
 
-## upgrade packages
+## check packages(major, minor, patch)
+    yarn outdated
+
+## all packages upgrade
     yarn upgrade --latest
