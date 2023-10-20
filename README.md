@@ -17,3 +17,6 @@
 
 ## create new folder
     mkdir [folder name]
+
+# copy then paste your file
+    cp [filename] [new filename] || cp [filename] [path/to/new/lotcation/filename]
