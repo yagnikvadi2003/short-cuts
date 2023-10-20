@@ -14,3 +14,6 @@
 
 ## show free and used memory your pc 
     free -m
+
+## create new folder
+    mkdir [folder name]
