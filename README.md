@@ -18,5 +18,14 @@
 ## create new folder
     mkdir [folder name]
 
-# copy then paste your file
+## copy then paste your file
     cp [filename] [new filename] || cp [filename] [path/to/new/lotcation/filename]
+
+## present working directory
+    pwd
+
+## print subdirectories of a directory
+    ls -R
+
+## shows the list of commands (with numeric numbers)
+    history
