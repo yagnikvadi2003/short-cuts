@@ -12,4 +12,5 @@
 ## full information your domain
     curl -I http://example.com
 
-
+## show free and used memory your pc 
+    free -m
