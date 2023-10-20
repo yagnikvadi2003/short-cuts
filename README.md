@@ -8,3 +8,8 @@
 
 ## all packages upgrade
     yarn upgrade --latest
+
+## full information your domain
+    curl -I http://example.com
+
+
