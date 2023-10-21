@@ -9,22 +9,22 @@
 ## all packages upgrade
     yarn upgrade --latest
 
-## full information your domain
+## Full information on your domain
     curl -I http://example.com
 
-## show free and used memory your pc 
+## Show free and used memory on your PC 
     free -m
 
-## create new folder
+## Create a new folder
     mkdir [folder name]
 
-## copy then paste your file
-    cp [filename] [new filename] || cp [filename] [path/to/new/lotcation/filename]
+## Copy then paste your file
+    cp [filename] [new filename] || cp [filename] [path/to/new/location/filename]
 
 ## present working directory
     pwd
 
-## print subdirectories of a directory
+## Print subdirectories of a directory
     ls -R
 
 ## shows the list of commands (with numeric numbers)
