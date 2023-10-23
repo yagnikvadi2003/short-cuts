@@ -29,3 +29,6 @@
 
 ## shows the list of commands (with numeric numbers)
     history
+
+## change password using terminal
+    passwd
