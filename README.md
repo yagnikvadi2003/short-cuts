@@ -35,3 +35,6 @@
 
 ## prints a file’s last ten lines
     tail filename
+
+## displays running processes and the system’s resource usage
+    top
