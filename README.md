@@ -32,3 +32,6 @@
 
 ## change password using terminal
     passwd
+
+## prints a file’s last ten lines
+    tail filename
