@@ -42,3 +42,5 @@
 ## show graph 
     git log --graph
 
+## Git Diff to Compare Files
+    git diff
