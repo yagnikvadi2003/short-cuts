@@ -38,3 +38,7 @@
 
 ## displays running processes and the system’s resource usage
     top
+
+## show graph 
+    git log --graph
+
