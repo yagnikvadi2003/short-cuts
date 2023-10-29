@@ -82,3 +82,8 @@
 # Do not auto restart application
     pm2 start server.js --no-autorestart
 
+# MAX MEMORY RESTART
+# PM2 allows to restart application based on memory limit
+    pm2 start server.js --max-memory-restart 50M
+
+
