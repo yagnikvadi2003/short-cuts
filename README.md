@@ -79,3 +79,6 @@
 # Delay between automatic restart of application
     pm2 start server.js --restart-delay <delay in ms>
 
+# Do not auto restart application
+    pm2 start server.js --no-autorestart
+
