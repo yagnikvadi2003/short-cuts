@@ -47,4 +47,10 @@
 
 # OR set an application state with name --name or -n
     pm2 start web.js --name "node-app-backend"
+    
+# Stop Process
+    pm2 stop node-app-backend
+
+# Restart Process
+    pm2 restart node-app-backend
 
