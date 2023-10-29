@@ -54,3 +54,9 @@
 # Restart Process
     pm2 restart node-app-backend
 
+# Update Environment Variable
+    NODE_ENV=production pm2 restart node-app-backend --update-env
+
+# Delete Process
+    pm2 delete node-app-backend
+
