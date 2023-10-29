@@ -65,10 +65,15 @@
 # Or
     pm2 [list|ls|l|status]
 
-# Reset Restart Count - this will reset restart count
+# Reset Restart Count - this will reset the restart count
     pm2 reset all
 # Sort Processes
     pm2 list --sort name:desc
 # OR
     pm2 list --sort [name|id|pid|memory|cpu|status|uptime][:asc|desc]
+
+# By default sorting field is name and the sorting order is asc
+# Watch and Restart the app when files change
+    pm2 start server.js --watch
+
 
