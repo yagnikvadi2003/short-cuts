@@ -65,4 +65,10 @@
 # Or
     pm2 [list|ls|l|status]
 
+# Reset Restart Count - this will reset restart count
+    pm2 reset all
+# Sort Processes
+    pm2 list --sort name:desc
+# OR
+    pm2 list --sort [name|id|pid|memory|cpu|status|uptime][:asc|desc]
 
