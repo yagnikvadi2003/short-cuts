@@ -76,4 +76,6 @@
 # Watch and Restart the app when files change
     pm2 start server.js --watch
 
+# Delay between automatic restart of application
+    pm2 start server.js --restart-delay <delay in ms>
 
