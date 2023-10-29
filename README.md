@@ -60,3 +60,9 @@
 # Delete Process
     pm2 delete node-app-backend
 
+# List Processes
+    pm2 list
+# Or
+    pm2 [list|ls|l|status]
+
+
