@@ -44,3 +44,7 @@
 
 ## Git Diff to Compare Files
     git diff
+
+# OR set an application state with name --name or -n
+    pm2 start web.js --name "node-app-backend"
+
